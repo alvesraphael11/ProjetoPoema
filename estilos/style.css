@@ -59,18 +59,6 @@ section.cor {
     text-align: right;
 }
 
-section#img2 {
-    background-image: url(../imagens/moonmountain.jpg);
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    position: fixed;
-    bottom: 0;
-    z-index: -2;
-    text-align: center;
-}
-
 footer {
     padding-bottom: -100vh;
 }
