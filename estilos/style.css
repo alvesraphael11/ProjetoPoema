@@ -36,22 +36,22 @@ section {
     padding-left: 25px;
 }
 
-section.imagem {
+section#img {
+    padding: 0px;
 }
 
 section#img1 {
     background-image: url(../imagens/moonmountain.jpg);
+    height: 100%;
+    width: 100%;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     position: fixed;
     top: 0;
     z-index: -1;
     text-align: center;
 }
 
-section#img2 {
-    background-image: url(../imagens/luamar.jpg);
-    background-size: cover;
-    background-position: center top;
+section.cor {
+    background-image: linear-gradient(to right, #1D2526, #384041);
 }
