@@ -24,7 +24,11 @@ header {
 }
 
 h1 {
-    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.288);
+    text-shadow: 1px 1px 7px rgba(255, 255, 255, 0.452);
+}
+
+span#lua {
+    filter: drop-shadow(1px 1px 7px rgba(250, 233, 3, 0.801));
 }
 
 section {
@@ -32,7 +36,6 @@ section {
     font-size: 1.3em;
     height: 100vh;
     padding-top: 40vh;
-    margin: 2px;
     padding-left: 25px;
 }
 
