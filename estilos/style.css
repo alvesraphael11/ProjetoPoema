@@ -38,10 +38,6 @@ section {
     padding: 40vh 25px 0px 25px;
 }
 
-section#img {
-    padding: 0px;
-}
-
 section#img1 {
     background-image: url(../imagens/luamar.jpg);
     height: 100%;
@@ -57,8 +53,4 @@ section#img1 {
 section.cor {
     background-image: linear-gradient(to right, #1D2526, #384041);
     text-align: right;
-}
-
-footer {
-    padding-bottom: -100vh;
 }
