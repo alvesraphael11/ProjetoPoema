@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #1D2526, #384041);
+    color: #BDBEBF;
+}
+
+header, footer {
+    font-family: 'Didact Gothic', sans-serif;
+    text-align: center;
+    background-color: #1D2526;
+}
+
+header {
+    height: 95px;
+    padding-top: 10px;
+}
+
+h1 {
+    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.288);
+}
+
+section {
+    font-family: 'Caveat', cursive;
+    font-size: 1.3em;
+    height: 100vh;
+    padding-top: 40vh;
+    margin: 2px;
+    padding-left: 25px;
+}
+
+section.imagem {
+    background-attachment: fixed;
+
+}
+
+section#img1 {
+    background-image: url(../imagens/moonmountain.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+section#img2 {
+    background-image: url(../imagens/luamar.jpg);
+    background-size: cover;
+    background-position: center top;
+}
