@@ -24,7 +24,7 @@ header {
 }
 
 h1 {
-    text-shadow: 1px 1px 7px rgba(255, 255, 255, 0.452);
+    text-shadow: 1px 1px 7px rgba(255, 255, 255, 0.295);
 }
 
 span#lua {
@@ -35,8 +35,7 @@ section {
     font-family: 'Caveat', cursive;
     font-size: 1.3em;
     height: 100vh;
-    padding-top: 40vh;
-    padding-left: 25px;
+    padding: 40vh 25px 0px 25px;
 }
 
 section#img {
@@ -57,4 +56,17 @@ section#img1 {
 
 section.cor {
     background-image: linear-gradient(to right, #1D2526, #384041);
+    text-align: right;
+}
+
+section#img2 {
+    background-image: url(../imagens/moonmountain.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    bottom: 0;
+    z-index: -2;
+    text-align: center;
 }
