@@ -70,3 +70,7 @@ section#img2 {
     z-index: -2;
     text-align: center;
 }
+
+footer {
+    padding-bottom: -100vh;
+}
