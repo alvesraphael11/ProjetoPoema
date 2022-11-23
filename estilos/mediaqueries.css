@@ -1,0 +1,13 @@
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 1.5em;
+    }
+
+    header {
+        height: 120px;
+    }
+    
+    section {
+        padding: 35vh 16% 0px 16%;
+    }
+}
