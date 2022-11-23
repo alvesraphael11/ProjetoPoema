@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Press+Start+2P&display=swap');
+@supports (-webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0) ) {
+    section.imagem {
+        -webkit-clip-path: polygon( 0 0, 0 100%, 100% 100%, 100% 0);
+        clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
+    }
+    section.imagem.elementor-background-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        pointer-events: none;
+    }
+}
 
 * {
     margin: 0px;
@@ -37,19 +50,11 @@ section {
 }
 
 section.imagem {
-    background-attachment: fixed;
-
 }
 
 section#img1 {
     background-image: url(../imagens/moonmountain.jpg);
-    background-size: cover;
-    background-position: center;
-    text-align: center;
 }
 
 section#img2 {
-    background-image: url(../imagens/luamar.jpg);
-    background-size: cover;
-    background-position: center top;
 }
